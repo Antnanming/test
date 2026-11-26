@@ -1,0 +1,11 @@
+# Fictional configuration. No account, database, or token is provisioned.
+# A normal password is not guaranteed to match default provider patterns.
+database:
+  host: database.example.invalid
+  username: demo_user
+  password: "DemoOnly-Database-7429!"
+
+# Requires a manually published custom pattern: antdemo_[0-9a-f]{32}
+internal_service:
+  endpoint: https://service.example.invalid
+  token: "antdemo_7cb41a9e8f205d63b47e1c90a2f683d5"
